@@ -1,0 +1,3 @@
+ALTER TABLE reservas ADD COLUMN ativo BOOLEAN DEFAULT TRUE;
+
+UPDATE reservas SET ativo = TRUE;
